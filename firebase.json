@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/maqueta-dinamica",
+    "public": "dist/portfolio-leoarias",
     "ignore": [
       "firebase.json",
       "**/.*",
