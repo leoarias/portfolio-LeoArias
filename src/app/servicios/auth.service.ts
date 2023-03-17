@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../entidades/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL='http://localhost:8080/auth/';
+  authURL='https://argpro.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
