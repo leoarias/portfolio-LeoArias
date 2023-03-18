@@ -8,7 +8,7 @@ import { Persona } from '../entidades/persona'
   providedIn: 'root'
 })
 export class PersonaService {
-  URL='http://localhost:8080/persona/';
+  URL='https://argpro.onrender.com/persona/';
   constructor(private httpClient: HttpClient) { }
   
   public lista(): Observable<Persona[]>{

@@ -8,7 +8,7 @@ import { Estudio } from '../entidades/estudio';
 })
 export class EstudioService {
 
-  url='http://localhost:8080/estudios/'
+  url='https://argpro.onrender.com/estudios/'
   constructor(private httpClient:HttpClient) { }
   public lista(): Observable<Estudio[]>{
     return this.httpClient.get<Estudio[]>(this.url + 'lista');

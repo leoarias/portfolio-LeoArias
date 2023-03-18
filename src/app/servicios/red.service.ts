@@ -7,7 +7,7 @@ import { Red } from '../entidades/red';
   providedIn: 'root'
 })
 export class RedService {
-  url:string= "http://localhost:8080/red/";
+  url:string= "https://argpro.onrender.com/red/";
   constructor(private httpClient:HttpClient) { }
 
   public lista(): Observable<Red[]>{
