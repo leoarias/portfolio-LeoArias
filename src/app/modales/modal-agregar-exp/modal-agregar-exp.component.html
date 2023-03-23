@@ -11,7 +11,7 @@
       <div class="modal-body">
               <div class="mb-3">
                 <label for="imagen" class="form-label">Agregar Logo de Empresa</label>
-                <input class="form-control" type="url"  formControlName="imagen" placeholder="Ingrese URL">
+                <input class="form-control" type="url"  formControlName="imagen" [ngModel]="experiencia!?.imagen">
               </div>
               <div class="mb-3">
                 <label for="empresa" class="form-label">Agregar Empresa</label>
